@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('12.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+p {
+    color: #070707;
+    padding: 20px; 
+}
+
+
+
+.electoral-hub-heading {
+    text-align: center;
+    margin-top: 20px;
+    color: #010101;
+}
+
+.faq {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.question {
+    cursor: pointer;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.answer {
+    display: none;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}

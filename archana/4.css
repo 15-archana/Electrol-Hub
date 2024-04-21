@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d8d3d3;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.candidate label:hover {
+  background-color: #0b0b0b;
+  color: white;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #010101;
+}
+
+.voting-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.candidate {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.candidate:hover {
+  transform: translateY(-5px);
+}
+
+.candidate img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #fff;
+}
+
+.candidate-name {
+  display: block;
+  font-size: 20px;
+  margin: 10px 0;
+  color: #787676;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.candidate img {
+  width: 150px; 
+  height: auto;
+  border-bottom: 2px solid #fff;
+}
+
+.candidate label {
+  display: flex; 
+  align-items: center; 
+}
+
+
+.small-pic {
+  width: 20px;
+  height: auto;
+  margin-left: 130px; 
+}
+
+
+.candidate-name {
+  margin-left: auto; 
+}
+
+
+
+
+.candidate {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 30px auto;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}

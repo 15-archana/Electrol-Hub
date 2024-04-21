@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System FAQ</title>
+    <link rel="stylesheet" href="6.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .faq {
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .question {
+            cursor: pointer;
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .answer {
+            display: none;
+            padding: 10px 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="electoral-hub-heading">Electoral Hub</h1>
+    <br>
+    
+
+    <p>Welcome to ElectoralHub where democracy meets convenience. Our platform was born from a vision to revolutionize the way elections are conducted, making them accessible, secure, and transparent for everyone. At ElectoralHub, we understand the importance of fair and efficient elections in every community, organization, and institution. That's why we've developed a user-friendly online voting solution that empowers voters to participate from anywhere, at any time, with just a few clicks. With cutting-edge technology and robust security measures, we ensure that every vote cast on our platform is counted accurately and securely.</p>
+    <br>
+
+<div class="faq">
+    <div class="question">Is online voting secure?</div>
+    <div class="answer">Online voting systems employ various security measures such as encryption, multi-factor authentication, and robust authentication protocols to ensure the integrity of the voting process.</div>
+
+    <div class="question">How does online voting ensure anonymity?</div>
+    <div class="answer">Online voting systems use techniques like anonymizing voter information and separating voter identity from their actual vote to maintain anonymity.</div>
+
+    <div class="question">What measures are in place to prevent hacking or fraud in online voting?</div>
+    <div class="answer">Online voting systems implement stringent cybersecurity measures, including firewalls, intrusion detection systems, and regular security audits, to prevent hacking and fraud attempts.</div>
+
+    <div class="question">Can online voting be tampered with or manipulated?</div>
+    <div class="answer">Online voting systems utilize cryptographic techniques and digital signatures to detect and prevent tampering or manipulation of votes, ensuring the integrity of the electoral process.</div>
+
+    <div class="question">What technology is used to facilitate online voting?</div>
+    <div class="answer">Online voting systems leverage secure web platforms, mobile applications, and blockchain technology to enable voters to cast their ballots electronically.</div>
+
+    <div class="question">How accessible is online voting for individuals with disabilities?</div>
+    <div class="answer">Online voting systems are designed with accessibility features such as screen readers, magnification tools, and alternative input methods to accommodate voters with disabilities and ensure their participation in the electoral process.</div>
+
+    <div class="question">What steps are taken to verify the identity of voters in online voting systems?</div>
+    <div class="answer">Online voting systems employ identity verification methods such as biometric authentication, government-issued IDs, and unique voter credentials to authenticate voters and prevent impersonation or unauthorized access.</div>
+</div>
+
+<script>
+    const questions = document.querySelectorAll('.question');
+
+    questions.forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
+
+</body>
+</html>
